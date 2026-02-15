@@ -1,0 +1,31 @@
+schema: 1
+assets:
+  refactor-logic:
+    kind: prompt
+    description: A structured prompt for refactoring complex logic.
+    versions:
+      1.0.0:
+        path: prompts/refactor-logic.md
+  summarize-code:
+    kind: prompt
+    description: A concise summarization prompt for codebases.
+    versions:
+      0.1.0:
+        path: prompts/summarize-code.md
+  python-refactor:
+    kind: skill
+    description: A reusable skill for Python refactoring patterns.
+    versions:
+      1.0.0:
+        path: skills/python-refactor.skill.md
+        runtime:
+          llm:
+            - provider: openai
+              models:
+                - gpt-4o
+  secure-api-guidelines:
+    kind: instruction
+    description: Security guidelines for API‑driven agents.
+    versions:
+      1.0.0:
+        path: instructions/secure-api-guidelines.md
