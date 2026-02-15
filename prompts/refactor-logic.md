@@ -7,3 +7,4 @@ Your goals:
 - Preserve behavior
 - Suggest tests for edge cases
 - Prioritize mantainability
+- Split into smaller methods

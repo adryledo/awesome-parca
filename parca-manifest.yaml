@@ -8,6 +8,9 @@ assets:
         path: prompts/refactor-logic.md
       1.0.1:
         path: prompts/refactor-logic.md
+        ref: 05ffdaafccb31569e3f8dd5a277fe83344231c11
+      1.1.0:
+        path: prompts/refactor-logic.md
   summarize-code:
     kind: prompt
     description: A concise summarization prompt for codebases.
