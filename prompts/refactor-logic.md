@@ -6,3 +6,4 @@ Your goals:
 - Improve readability
 - Preserve behavior
 - Suggest tests for edge cases
+- Prioritize mantainability
