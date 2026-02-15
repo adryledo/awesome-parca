@@ -4,7 +4,7 @@ description: Guidance for refactoring Python code to improve clarity and maintai
 license: Apache-2.0
 metadata:
   author: example-org
-  version: "2.0.0"
+  version: "1.2.0"
 user-invokable: true
 ---
 

@@ -22,12 +22,15 @@ assets:
     description: A reusable skill for Python refactoring patterns.
     versions:
       1.0.0:
-        path: skills/python-refactor.skill.md
+        path: skills/python-refactor/skill.md
         runtime:
           llm:
             - provider: openai
               models:
                 - gpt-4o
+        ref: b5707fbc0562b6ac905ce60b037128c8db2b9000
+      1.2.0:
+        path: skills/python-refactor
   secure-api-guidelines:
     kind: instruction
     description: Security guidelines for API‑driven agents.
