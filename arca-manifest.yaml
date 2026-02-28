@@ -1,34 +1,23 @@
-schema: 1
+schema: "1"
 assets:
-  refactor-logic:
-    kind: prompt
-    description: A structured prompt for refactoring complex logic.
+  greeter:
+    kind: skill
+    description: Added via arca publish
     versions:
       1.0.0:
-        path: prompts/refactor-logic.md
-      1.0.1:
-        path: prompts/refactor-logic.md
-        ref: 05ffdaafccb31569e3f8dd5a277fe83344231c11
-      1.1.0:
-        path: prompts/refactor-logic.md
-  summarize-code:
-    kind: prompt
-    description: A concise summarization prompt for codebases.
-    versions:
-      0.1.0:
-        path: prompts/summarize-code.md
+        path: skills/greeter
   python-refactor:
     kind: skill
     description: A reusable skill for Python refactoring patterns.
     versions:
       1.0.0:
-        path: skills/python-refactor/skill.md
+        ref: b5707fbc0562b6ac905ce60b037128c8db2b9000
+        path: skills/python-refactor
         runtime:
           llm:
             - provider: openai
               models:
                 - gpt-4o
-        ref: b5707fbc0562b6ac905ce60b037128c8db2b9000
       1.2.0:
         path: skills/python-refactor
   secure-api-guidelines:
@@ -36,4 +25,4 @@ assets:
     description: Security guidelines for API‑driven agents.
     versions:
       1.0.0:
-        path: instructions/secure-api-guidelines.md
+        path: instructions/secure-api-guidelines.instructions.md
